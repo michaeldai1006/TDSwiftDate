@@ -12,6 +12,7 @@
 		55F73ACA22D4BF2700880212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F73AC822D4BF2700880212 /* Main.storyboard */; };
 		55F73ACC22D4BF2800880212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F73ACB22D4BF2800880212 /* Assets.xcassets */; };
 		55F73ACF22D4BF2800880212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F73ACD22D4BF2800880212 /* LaunchScreen.storyboard */; };
+		55F73AD722D4BFA900880212 /* TDSwiftDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F73AD622D4BFA900880212 /* TDSwiftDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		55F73ACB22D4BF2800880212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55F73ACE22D4BF2800880212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55F73AD022D4BF2800880212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F73AD622D4BFA900880212 /* TDSwiftDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDSwiftDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,21 @@
 		55F73AC322D4BF2700880212 /* TDSwiftDate */ = {
 			isa = PBXGroup;
 			children = (
+				55F73AD822D4BFAD00880212 /* TDSwiftDate */,
 				55F73AC422D4BF2700880212 /* AppDelegate.swift */,
 				55F73AC622D4BF2700880212 /* ViewController.swift */,
 				55F73AC822D4BF2700880212 /* Main.storyboard */,
 				55F73ACB22D4BF2800880212 /* Assets.xcassets */,
 				55F73ACD22D4BF2800880212 /* LaunchScreen.storyboard */,
 				55F73AD022D4BF2800880212 /* Info.plist */,
+			);
+			path = TDSwiftDate;
+			sourceTree = "<group>";
+		};
+		55F73AD822D4BFAD00880212 /* TDSwiftDate */ = {
+			isa = PBXGroup;
+			children = (
+				55F73AD622D4BFA900880212 /* TDSwiftDate.swift */,
 			);
 			path = TDSwiftDate;
 			sourceTree = "<group>";
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F73AD722D4BFA900880212 /* TDSwiftDate.swift in Sources */,
 				55F73AC722D4BF2700880212 /* ViewController.swift in Sources */,
 				55F73AC522D4BF2700880212 /* AppDelegate.swift in Sources */,
 			);

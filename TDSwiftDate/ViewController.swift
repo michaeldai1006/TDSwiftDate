@@ -1,20 +1,10 @@
-//
-//  ViewController.swift
-//  TDSwiftDate
-//
-//  Created by Michael Dai on 7/9/19.
-//  Copyright © 2019 TDSwift. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        print(TDSwiftDate.utcTimeStringToLocalTimeString(timeString: "2019-07-03T21:56:00.000Z", withFormat: "yyyy-MM-dd'T'HH:mm:ss.SSSZ", outputFormat: "MMM d, h:mm a") ?? "Error")
     }
-
-
 }
 
